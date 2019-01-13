@@ -7,6 +7,6 @@ def oxford_comma(array)
     return array.join(" and ")
   else
     array.length >= 3
-    puts array.to_sentence
+    puts array.to_set
   end
 end
