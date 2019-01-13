@@ -9,4 +9,5 @@ def oxford_comma(array)
     array.length >= 3
     puts array.join(", ") << "and"
   end
+  puts array
 end
